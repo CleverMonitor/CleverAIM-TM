@@ -1,0 +1,26 @@
+{
+	"name": "clevermonitor/cleveraim-tm",
+	"description": "CleverAIM PHP TM API Client",
+	"keywords": ["CleverMonitor", "CleverAIM", "email", "newsletter", "api", "mailing", "mail", "clever"],
+	"homepage": "http://cleveraim.com",
+	"license": "BSD-3-Clause",
+	"authors": [
+		{
+			"name": "CleverMonitor",
+			"email": "support@clevermonitor.com"
+		}
+	],
+	"support": {
+		"email": "support@clevermonitor.com",
+		"docs": "https://docs.cleveraim.com"
+	},
+	"require": {
+		"php": ">=7.1",
+		"guzzlehttp/guzzle": "~6.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"CleverMonitor\\CleverAIMTM\\": "src/"
+		}
+	}
+}
