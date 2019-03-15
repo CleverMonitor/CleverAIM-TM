@@ -89,7 +89,7 @@ $result = $messageHandler->getOverview($paginator, 'messageId', 'ASC');
 
 $httpResponseCode = $result->getStatusCode();
 $httpResponseData = $result->getData();
-$httpResponsErrors = $result->getErrors();
+$httpResponseErrors = $result->getErrors();
 
 print_r($httpResponseCode);
 print_r($httpResponseData);
@@ -103,7 +103,7 @@ $result = $messageHandler->getDetail('c5dde719-c196-45b4-85b5-0aa7f9b03e5c');
 
 $httpResponseCode = $result->getStatusCode();
 $httpResponseData = $result->getData();
-$httpResponsErrors = $result->getErrors();
+$httpResponseErrors = $result->getErrors();
 
 print_r($httpResponseCode);
 print_r($httpResponseData);
